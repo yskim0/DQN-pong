@@ -14,6 +14,11 @@ python train.py --cuda
 * Play
 
 ```
-python play.py
+python play.py -m [model data 경로]
+```
+
+예시 
+```
+python play.py -m ./checkpoints/PongNoFrameskip-v4-best.dat
 ```
 
